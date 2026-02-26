@@ -1,0 +1,15 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Logs and Reports
+test_run.log
+*.log
+report.html
+allure-results/
+allure-report/
+
+# IDE
+.vscode/
+.idea/
