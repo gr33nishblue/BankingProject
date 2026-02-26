@@ -1,22 +1,24 @@
-Create a Virtual Environement
-python -m venv .venv
+# Create a Virtual Environement
 
-Activate the virtual environment:
+python -m venv .venv  
 
-On Windows:
-.venv\Scripts\activate.bat
+# Activate the virtual environment:
 
-On Unix or MacOS:
-source .venv/bin/activate
+On Windows:  
+.venv\Scripts\activate.bat  
 
-Install dependencies:
-pip install -r requirements.txt
+On Unix or MacOS:  
+source .venv/bin/activate  
 
-Run tests with pytest: // --headless is optional
-pytest --browser=chrome --headless
-pytest --browser=firefox --headless
-pytest --browser=edge
+# Install dependencies:
+pip install -r requirements.txt  
 
-Run tests and generate report:
-pip install pytest-html
+# Run tests with pytest: // --headless is optional
+
+pytest --browser=chrome --headless  
+pytest --browser=firefox --headless  
+pytest --browser=edge  
+
+# Run tests and generate report:
+pip install pytest-html  
 pytest --html=reports/report.html --self-contained-html
